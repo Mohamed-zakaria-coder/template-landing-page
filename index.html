@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./css/landing-page.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Template-Landing-Page</title>
+  </head>
+  <body>
+    <!-- Start Up Button -->
+    <div class="up">Up</div>
+    <!-- End Up Button -->
+    <!-- Start Settings -->
+    <div class="settings">
+      <h2 class="settings-heading">Settings</h2>
+      <div class="toggle-settings">
+        <i class="fa-solid fa-gear gear"></i>
+      </div>
+      <div class="colors-settings">
+        <h3>Colors</h3>
+        <ul class="ul-colors">
+          <li data-color="#03a9f4" class="first"></li>
+          <li data-color="#009688" class="second"></li>
+          <li data-color="#ffc107" class="third"></li>
+          <li data-color="#f44336" class="fourth"></li>
+          <li data-color="#9e9e9e" class="fifth"></li>
+        </ul>
+      </div>
+      <div class="background-colors-settings">
+        <h3>Overlay</h3>
+        <ul class="ul-colors">
+          <li data-color="rgba(0, 0, 0, 0.336)" class="first"></li>
+          <li data-color="rgba(0, 150, 136, 0.336)" class="second"></li>
+          <li data-color="rgba(255, 193, 7, 0.336)" class="third"></li>
+          <li data-color="rgba(3, 169, 244, 0.336)" class="fourth"></li>
+          <li data-color="rgba(158,158,158, 0.336)" class="fifth"></li>
+        </ul>
+      </div>
+      <div class="bullets-parent">
+        <h3>Show Bullets</h3>
+        <div class="show-bullets">
+          <div class="yes">Yes</div>
+          <div class="no">No</div>
+        </div>
+      </div>
+      <button class="reset-options">Reset Options</button>
+    </div>
+    <!-- End Settings -->
+    <!-- Start Tooltip  -->
+    <div class="tooltip-parent">
+      <div data-sec=".about">
+        <span>About</span>
+      </div>
+      <div data-sec=".skills-parent">
+        <span>Skills</span>
+      </div>
+
+      <div data-sec=".gallery-parent">
+        <span>Gallery</span>
+      </div>
+      <div data-sec=".timeline-parent">
+        <span>Timeline</span>
+      </div>
+      <div data-sec=".features-parent">
+        <span>Features</span>
+      </div>
+      <div data-sec=".testimonials-parent">
+        <span>Testimonials</span>
+      </div>
+      <div data-sec=".contact-parent">
+        <span>Contact</span>
+      </div>
+    </div>
+    <!-- End Tooltip  -->
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <!-- Start Navbar -->
+      <div class="navbar">
+        <div class="navbar-heading"><a href="/">Landing-Page</a></div>
+        <ul>
+          <a href="#about" class="active"><li>About</li></a>
+          <a href="#skills"><li>Skills</li></a>
+          <a href="#gallery"><li>Gallery</li></a>
+          <a href="#timeline"><li>Timeline</li></a>
+          <a href="#features"><li>Features</li></a>
+          <a href="#testimonials"><li>Testimonials</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </ul>
+        <div class="toggle-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <!-- End Navbar -->
+      <!-- Start Content -->
+      <div class="content">
+        <h1 class="content-heading">We Are <span>Creative</span> Agency</h1>
+        <p class="content-paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+          aspernatur corrupti quo aliquid ipsa ratione unde ad voluptatem.
+        </p>
+      </div>
+      <!-- End Content -->
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start About -->
+    <div class="about" id="about">
+      <div class="about-content">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ut eius,
+          repellendus, accusantium rem tempore accusamus veritatis minus
+          ducimus, sapiente nulla expedita cupiditate voluptas voluptatem
+          doloremque fuga deleniti tenetur amet.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ut eius,
+          repellendus, accusantium rem tempore accusamus veritatis minus
+          ducimus, sapiente nulla expedita cupiditate voluptas voluptatem
+          doloremque fuga deleniti tenetur amet.
+        </p>
+        <div class="about-buttons">
+          <button>Discover</button>
+          <button>More</button>
+        </div>
+      </div>
+      <div class="img-parent">
+        <img
+          src="https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227__340.jpg"
+          alt="monitor-img"
+        />
+      </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Skills -->
+    <div class="skills-parent" id="skills">
+      <h2>Our Skills</h2>
+      <div class="each-skill">
+        <div class="skill-name">HTML</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="each-skill">
+        <div class="skill-name">CSS</div>
+        <div class="skill-progress">
+          <span data-progress="75%"></span>
+        </div>
+      </div>
+      <div class="each-skill">
+        <div class="skill-name">Javascript</div>
+        <div class="skill-progress">
+          <span data-progress="85%"></span>
+        </div>
+      </div>
+      <div class="each-skill">
+        <div class="skill-name">React</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="each-skill">
+        <div class="skill-name">Bootstrap</div>
+        <div class="skill-progress">
+          <span data-progress="60%"></span>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills -->
+    <!-- Start Our Gallery -->
+    <div class="gallery-parent" id="gallery">
+      <h2>Gallery</h2>
+      <div class="images-parent">
+        <img src="./images/gallery/4k-g1ef38d9b7_1920.jpg" alt="gallery-img" />
+        <img src="/images/gallery/4k-g3d585f448_1920.jpg" alt="gallery-img" />
+        <img src="./images/gallery/4k-g88f9c74fb_1920.jpg" alt="gallery-img" />
+        <img src="./images/gallery/4k-gb44a5f3d9_1920.jpg" alt="gallery-img" />
+        <img src="./images/gallery/4k-gb84d2488b_1920.jpg" alt="gallery-img" />
+        <img src="./images/gallery/4k-gda23946ff_1920.jpg" alt="gallery-img" />
+        <img src="/images/gallery/4k-gec8a43e4d_1920.jpg" alt="gallery-img" />
+        <img src="./images/gallery/4k-gf15f2c1e2_1920.jpg" alt="gallery-img" />
+      </div>
+    </div>
+    <!-- End Our Gallery -->
+    <!-- Start Timeline -->
+    <div class="timeline-parent" id="timeline">
+      <h2>Timeline</h2>
+      <div class="content-parent">
+        <div class="event-one">
+          <h3>Section One</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+            ipsum beatae voluptatibus molestiae repellendus culpa laborum a?
+            Eligendi architecto veniam rem id at rerum ea, tenetur, earum enim
+            suscipit labore?
+          </p>
+        </div>
+
+        <div class="event-two">
+          <h3>Section Two</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+            ipsum beatae voluptatibus molestiae repellendus culpa laborum a?
+            Eligendi architecto veniam rem id at rerum ea, tenetur, earum enim
+            suscipit labore?
+          </p>
+        </div>
+        <div class="clear"></div>
+        <div class="event-three">
+          <h3>Section Three</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+            ipsum beatae voluptatibus molestiae repellendus culpa laborum a?
+            Eligendi architecto veniam rem id at rerum ea, tenetur, earum enim
+            suscipit labore?
+          </p>
+        </div>
+        <div class="event-two">
+          <h3>Section Four</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+            ipsum beatae voluptatibus molestiae repellendus culpa laborum a?
+            Eligendi architecto veniam rem id at rerum ea, tenetur, earum enim
+            suscipit labore?
+          </p>
+        </div>
+        <div class="clear"></div>
+        <div class="line">2021</div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Start Features -->
+    <div class="features-parent" id="features">
+      <h2>Our Features</h2>
+      <div class="boxes">
+        <div class="box">
+          <img
+            src="./images/features/folder-g7e7ac520b_1280.png"
+            alt="feature-img"
+          />
+          <h3>Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+            repellendus.
+          </p>
+        </div>
+        <div class="box">
+          <img
+            src="./images/features/folder-g25d9fe3ee_1920.png"
+            alt="feature-img"
+          />
+          <h3>Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+            repellendus.
+          </p>
+        </div>
+        <div class="box">
+          <img
+            src="./images/features/letter-g4e5c41f42_1280.png"
+            alt="feature-img"
+          />
+          <h3>Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+            repellendus.
+          </p>
+        </div>
+        <div class="box">
+          <img
+            src="./images/features/gear-ga18010131_1280.png"
+            alt="feature-img"
+          />
+          <h3>Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+            repellendus.
+          </p>
+        </div>
+        <div class="box">
+          <img
+            src="./images/features/upload-g94033906e_1280.png"
+            alt="feature-img"
+          />
+          <h3>Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+            repellendus.
+          </p>
+        </div>
+        <div class="box">
+          <img
+            src="./images/features/download-gec9e3f35a_1280.png"
+            alt="feature-img"
+          />
+          <h3>Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+            repellendus.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Testimonials -->
+    <div class="testimonials-parent" id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonials">
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+            omnis sequi nesciunt.
+          </p>
+          <div class="id-card">
+            <i class="fa-solid fa-id-card"></i>
+            <h3>Mahmoud Ahmed</h3>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+            omnis sequi nesciunt.
+          </p>
+          <div class="id-card">
+            <i class="fa-solid fa-id-card"></i>
+            <h3>Ibrahim Mahmoud</h3>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+            omnis sequi nesciunt.
+          </p>
+          <div class="id-card">
+            <i class="fa-solid fa-id-card"></i>
+            <h3>Ahmed Mansour</h3>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+            omnis sequi nesciunt.
+          </p>
+          <div class="id-card">
+            <i class="fa-solid fa-id-card"></i>
+            <h3>Gamal Ahmed</h3>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+            omnis sequi nesciunt.
+          </p>
+          <div class="id-card">
+            <i class="fa-solid fa-id-card"></i>
+            <h3>Ibrahim Galal</h3>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+            omnis sequi nesciunt.
+          </p>
+          <div class="id-card">
+            <i class="fa-solid fa-id-card"></i>
+            <h3>Saied Ali</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Contact -->
+    <div class="contact-parent" id="contact">
+      <div class="contact-overlay"></div>
+      <h2>Contact</h2>
+      <div class="form-parent">
+        <div class="form">
+          <input type="text" placeholder="Enter Your Name" />
+          <input type="password" placeholder="Enter Your Password" />
+          <input type="email" placeholder="Enter Your Email" />
+        </div>
+        <div class="textarea">
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="Enter Your Message"
+          ></textarea>
+          <button class="contact-submit">Submit</button>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="footer">
+      <p>By: Mz</p>
+    </div>
+    <!-- End Footer -->
+    
+    <script src="./landing-page.js"></script>
+  </body>
+</html>
